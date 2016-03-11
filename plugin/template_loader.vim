@@ -52,9 +52,6 @@
 "	(int) g:template_replace_end_line
 "		End tag replacing to here. Default is the last line ("$")
 "
-"咚冬加入
-"设置编码方式,要不打开从模板新建文件时有中文字符会有乱码
-"set fencs=utf-8,gbk
 
 if exists("g:template_load") && g:template_load==1
 	augroup Template_Loader
